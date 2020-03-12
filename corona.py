@@ -55,8 +55,6 @@ def get_data():
 
     return post_discord(new_countries, processed_data, total_cases, total_deaths)
 
-    return []
-
 
 def check_change(prev_deaths, total_deaths, prev_cases, total_cases):
     if (prev_deaths != total_deaths) or (prev_cases != total_cases):
